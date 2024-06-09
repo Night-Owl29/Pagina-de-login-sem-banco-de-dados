@@ -35,7 +35,7 @@
 							session_start();
 							$_SESSION['usuario']=$user;
 							$_SESSION['senha']=$pass;
-							header("Location: painel.php");
+							header("Location: painel.html");
 						}
 						else{
 							echo "<script>alert('Usuário e/ou senha inválido(s), Tente novamente!');</script>";
